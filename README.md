@@ -1,7 +1,7 @@
 # Logic 16 adapter.
 This adapter converts levels and protects inputs for Saleae Logic 16 clone adapter.
 
-The problem with Logic 16 clone adapter is that it load the analyzed sirquits and have pour over voltage protection. Using it with signals more than 5 volt can lead to damage and mistakes in measurements.
+The problem with Logic 16 clone adapter is that it loads the analyzed sirquits and have pour over voltage protection. Using it with signals more than 5 volt can lead to damage and mistakes in measurements.
 
 With this adapter you can set different channels to different signal levels by choosing input resistors.
 
