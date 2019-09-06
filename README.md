@@ -5,7 +5,7 @@ The problem with Logic 16 clone adapter is that it loads the analyzed sirquits a
 
 With this adapter you can set different channels to different signal levels by choosing input resistors.
 
-PCB plug for J-Link debug probe:
+Logoc 16 adapter for Saleae Logic 16 clone:
 
 <img src="images/1.PNG" alt="1.PNG" width="400" >
 
