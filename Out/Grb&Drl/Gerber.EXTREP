@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: Gerber.GBR   30.04.2021  2:06:51
+Gerber File Extension Report For: Gerber.GBR   30.04.2021  2:12:20
 ------------------------------------------------------------------------------------------
 
 
@@ -7,12 +7,10 @@ Gerber File Extension Report For: Gerber.GBR   30.04.2021  2:06:51
 Layer Extension     Layer Description                      
 ------------------------------------------------------------------------------------------
 .GTO                Top Overlay                             
-.GTP                Top Paste                               
 .GTS                Top Solder                              
 .GTL                L1                                      
 .GBL                L2                                      
 .GBS                Bot Solder                              
-.GBP                Bottom Paste                            
 .GBO                Bot Overlay                             
 .GM2                Board                                   
 ------------------------------------------------------------------------------------------
