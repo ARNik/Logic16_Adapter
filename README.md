@@ -1,11 +1,12 @@
 # Logic 16 adapter.
 This adapter converts levels and protects inputs for Saleae Logic 16 clone adapter.
+(LA1010/LA1016/LA2016 logic analizers are also supported)
 
 The problem with Logic 16 clone adapter is that it loads the analyzed sirquits and have pour over voltage protection. Using it with signals more than 5 volt can lead to damage and mistakes in measurements.
 
 With this adapter you can set different channels to different signal levels by choosing input resistors.
 
-Logoc 16 adapter for Saleae Logic 16 clone:
+Logic 16 adapter for Saleae Logic 16 clone:
 
 <img src="images/1.PNG" alt="1.PNG" width="400" >
 
@@ -20,6 +21,10 @@ BOTTOM view:
 Saleae Logic 16 clone from aliexpress:
 
 <img src="images/clone.jpg" width="400" >
+
+LA1010/LA1016/LA2016 logic analizers:
+
+<img src="images/LA.PNG" width="400" >
 
 You can find analog analyzers and modify this progect for different hardware here: https://sigrok.org/wiki/Mcupro_Logic16_clone
 
