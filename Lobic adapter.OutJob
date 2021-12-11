@@ -17,11 +17,11 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=Lobic adapter.OutJob
 Description=
-TargetOutputMedium=Grb&Drill
+TargetOutputMedium=Out
 VariantName=[No Variations]
-VariantScope=1
+VariantScope=0
 CurrentConfigurationName=
-TargetPrinter=Samsung ML-1865W
+TargetPrinter=\\iprint\HP2055_tech
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -52,7 +52,7 @@ OutputName2=Gerber
 OutputCategory2=Fabrication
 OutputDocumentPath2=
 OutputVariantName2=
-OutputEnabled2=1
+OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=0
 OutputEnabled2_OutputMedium3=1
@@ -65,7 +65,7 @@ OutputName3=NC Drill
 OutputCategory3=Fabrication
 OutputDocumentPath3=
 OutputVariantName3=
-OutputEnabled3=1
+OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=0
 OutputEnabled3_OutputMedium3=2
@@ -82,7 +82,7 @@ OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=0
 OutputEnabled4_OutputMedium3=0
-OutputEnabled4_OutputMedium4=1
+OutputEnabled4_OutputMedium4=0
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration4_Name1=ColumnNameFormat
@@ -122,7 +122,7 @@ OutputName6=Test Point Report
 OutputCategory6=Assembly
 OutputDocumentPath6=
 OutputVariantName6=
-OutputEnabled6=1
+OutputEnabled6=0
 OutputEnabled6_OutputMedium1=0
 OutputEnabled6_OutputMedium2=0
 OutputEnabled6_OutputMedium3=3
@@ -130,6 +130,43 @@ OutputEnabled6_OutputMedium4=0
 OutputDefault6=0
 Configuration6_Name1=OutputConfigurationParameter1
 Configuration6_Item1=AssyAdjacencyDistance=250000|AssyGenerateCSVFormat=False|AssyGenerateIPCFormat=True|AssyGenerateSpreadSheetFormat=False|AssyGenerateTextFormat=True|AssyOriginPosition=Relative|AssyOutlineLayer=58|AssyOutputAdjancencies=False|AssyOutputBoardOutline=True|AssyOutputTraces=True|AssyReportBottomLayerTestpoints=True|AssyReportTopLayerTestpoints=True|AssyUnits=Metric|Record=TestPointView
+OutputType7=BOM_PartType
+OutputName7=LCSC_BOM
+OutputCategory7=Report
+OutputDocumentPath7=
+OutputVariantName7=JLCSMT
+OutputEnabled7=1
+OutputEnabled7_OutputMedium1=0
+OutputEnabled7_OutputMedium2=0
+OutputEnabled7_OutputMedium3=0
+OutputEnabled7_OutputMedium4=1
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration7_Name1=ColumnNameFormat
+Configuration7_Item1=CaptionAsName
+Configuration7_Name2=General
+Configuration7_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1554|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration7_Name3=GroupOrder
+Configuration7_Item3=Comment=True|Footprint=True
+Configuration7_Name4=SortOrder
+Configuration7_Item4=Designator=Up|Footprint=Up
+Configuration7_Name5=VisibleOrder
+Configuration7_Item5=Comment=100|Designator=120|Footprint=120|LCSC Part #=100
+Configuration7_Name6=VisibleOrder_Flat
+Configuration7_Item6=Comment=100|Designator=120|Footprint=120|LCSC Part #=100
+OutputType8=Pick Place
+OutputName8=PickAndPlace
+OutputCategory8=Assembly
+OutputDocumentPath8=
+OutputVariantName8=
+OutputEnabled8=1
+OutputEnabled8_OutputMedium1=0
+OutputEnabled8_OutputMedium2=0
+OutputEnabled8_OutputMedium3=0
+OutputEnabled8_OutputMedium4=2
+OutputDefault8=0
+Configuration8_Name1=OutputConfigurationParameter1
+Configuration8_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|GenerateTextFormat=False|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|IncludeStandardNoBOM=False|Filter= |FilterActive=False|YFlip=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:False,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:6|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:3|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:4|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:Vendor,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30|Column#18=Name:Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27|Column#19=Name:Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19|Column#20=Name:Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22|Column#21=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29|Column#22=Name:HelpURL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21|Column#23=Name:Pins,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24|Column#24=Name:Dielectric,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20|Column#25=Name:Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31|Column#26=Name:Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23|Column#27=Name:Alt Part,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16|Column#28=Name:WaveLength,Fixed:False,Metric:False,Visible:False,Sort:None,Position:32|Column#29=Name:Component Name,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18|Column#30=Name:Brightness,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17|Column#31=Name:Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:28|Column#32=Name:Price,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26|Column#33=Name:Power,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25|DocumentPath=D:\Mega-F\_Logic16_Adapter\Logic adapter.PcbDoc
 
 [PublishSettings]
 OutputFilePath2=D:\Mega-F\Logicar_X\RC\Rev9\Out\
@@ -172,7 +209,7 @@ OutputFileNameMulti3==OutputName
 UseOutputNameForMulti3=0
 OutputFileNameSpecial3=
 OpenOutput3=0
-OutputFilePath4=D:\Mega-F\Logicar_X\RC\Rev9\Out\
+OutputFilePath4=D:\Mega-F\_Logic16_Adapter\Out\
 ReleaseManaged4=0
 OutputBasePath4=Out\
 OutputPathMedia4=
@@ -199,7 +236,7 @@ OpenGerberOutput3=0
 OpenNCDrillOutput3=0
 OpenIPCOutput3=0
 EnableReload3=0
-RelativeOutputPath4=D:\Mega-F\Logicar_X\RC\Rev9\Out\
+RelativeOutputPath4=D:\Mega-F\_Logic16_Adapter\Out\
 OpenOutputs4=0
 AddToProject4=0
 TimestampFolder4=0
